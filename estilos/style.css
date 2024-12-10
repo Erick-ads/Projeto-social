@@ -29,10 +29,26 @@ main{
         left: 50%;
         top: 50%;     
 }
- #tela{
-    position: relative;
-    height: 470px;
-    width: 266px;
-    left: 22px;
-    top: 80px;
+     #tela{
+        position: relative;
+        height: 470px;
+        width: 266px;
+        left: 22px;
+        top: 80px;
+}
+    #redes-sociais{
+        text-align: right;
+}
+    #redes-sociais img{
+        box-shadow: 2px 2px 5px #0000007d;
+        box-sizing: border-box; /*para as bordas brancas fazer parte*/
+        border-radius: 50%;
+        width: 50px;
+        margin: 10px;
  }
+    #redes-sociais img:hover{
+        box-shadow: 5px 5px 5px #00000083; 
+        transform: translate(-3px,-3px); /*levanta pra cima os icones*/
+        border: 2px solid #ffffff88; /*bordas brancas nos icones*/
+        transition: transform .5s;   /* animaçao de levantamento lento */
+    }
