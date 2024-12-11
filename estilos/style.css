@@ -40,7 +40,7 @@ main{
         text-align: right;
 }
     #redes-sociais img{
-        box-shadow: 2px 2px 5px #0000007d;
+        box-shadow: 2px 2px 5px #00000058;
         box-sizing: border-box; /*para as bordas brancas fazer parte*/
         border-radius: 50%;
         width: 50px;
@@ -48,7 +48,7 @@ main{
  }
     #redes-sociais img:hover{
         box-shadow: 5px 5px 5px #00000083; 
-        transform: translate(-3px,-3px); /*levanta pra cima os icones*/
+        transform: translate(-2px,-2px); /*levanta pra cima os icones*/
         border: 2px solid #ffffff88; /*bordas brancas nos icones*/
         transition: transform .5s;   /* animaçao de levantamento lento */
     }
